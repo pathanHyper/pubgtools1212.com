@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: red;
+    margin-top: 0;
+    padding: 1px;
+    border-bottom: 2px black;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header .logo .a{
+    display: inline;
+    margin-left: 100px;
+}
+.header .logo a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 19px;
+
+}
+.header .logo #srch{
+    display: inline;
+    margin-left: 50px;
+}
+#srch input{
+    border: 1.5px solid rgb(58, 56, 56);
+    border-radius: 6px;
+}
+#srch #btn-1{
+    background-color: orange;
+   
+    border: 1.5px solid black;
+    border-radius: 6px;
+}
+.login{
+    display: inline;
+    margin-left: 60px;
+}
+#btn-2{
+    font-size: 20px;
+    /* background-color: orange; */
+
+}
+/* HEADER EAND */
+body{
+    background-image: url(8.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.boxx{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.box-login{
+    position: relative;
+    margin-left: -1000px;
+    width: 400px;
+    margin-top: 20px;
+    height: 420px;
+    border: 2px solid black;
+    border-radius: 10px;
+    backdrop-filter: blur(12px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.box-login .box h2 {
+    color: rgb(8, 8, 8);
+    margin-bottom: 60px;
+}
+.t{
+    position: relative;
+    margin-bottom: 34px;
+    border-bottom: 3px solid black;
+    margin-left: 40px;
+}
+.f{
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+.f #g{
+    margin-bottom: 40px;
+    padding: 3px;
+}
+#close{
+   margin-left: 300px;
+
+}
+.r{
+    margin-left: 40px;
+}
+#btn-3{
+    margin-left: 40px;
+}
+#boxl{
+    transition: 0s;
+}

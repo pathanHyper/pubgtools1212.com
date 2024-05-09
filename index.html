@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHEHZAD KHAN </title>
+    <link rel="stylesheet" href="SHZ.css">
+  
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+           
+            <form action="#">
+       <div class="a">
+        <a href="">Home</a>
+       </div>
+       <div class="a">
+        <a href="">About</a>
+       </div>
+        <div class="a">
+        <a href="">Blogs</a>
+       </div>
+       <div class="a">
+        <a href="">Contect</a>
+       </div>
+       <div id="srch">
+        <input type="text" placeholder="search">
+        <button id="btn-1"><datagrid>Search</datagrid></button>
+       </div>
+       <div class="login">
+        <button id="btn-2" onclick="fire()">Login</button>
+    </div>
+       </div>
+    </form>
+   
+    </div>
+    <!-- HEADER EAND -->
+    <div class="boxx">
+    <div class="box-login" id="boxl">
+        <div class="box">
+            <button id="close" onclick="fire2()">Close</button>
+            <h2>Login</h2>
+            <form action="#">
+              <div class="t">
+           <input type="email" required>
+           <label>Email</label>
+          </div>
+          <div class="f">
+            <input type="password" required id="g">
+            <label>Password</label>
+           </div>
+           <button type="submit" id="btn-3" onclick="fire3()">Submit</button>
+         
+           <div class="r">
+            <label><input type="checkbox">Remimber me</label>
+           </div>
+        </form>
+        </div>
+    </div>
+</div>
+<script>
+    var boxl = document.getElementById("boxl");
+    var button = document.getElementById("close");
+    var button = document.getElementById("btn-2");
+    var button = document.getElementById("btn-3");
+    function fire(){
+        boxl.style.left="1500px"
+    }
+    function fire2(){
+        boxl.style.left="-1000px";
+    }
+    function fire3(){
+       alert("hello");
+    }
+    
+        </script>
+</body>
+</html>
